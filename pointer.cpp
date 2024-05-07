@@ -8,3 +8,7 @@ class persegiPanjang {
         return a * b;
     }
 };
+
+class segitiga {
+    
+}
