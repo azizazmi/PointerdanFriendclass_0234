@@ -19,3 +19,19 @@ class segitiga {
         return p.panjang;
     }
 };
+
+int main() {
+    persegiPanjang pp;
+    segitiga sg;
+    cout << "Masukkan panjang: ";
+    cin >> pp.panjang;
+    cout << "Masukkan lebar: ";
+    cin >> pp.lebar;
+    cout << "Masukkan tinggi: ";
+    cin >> sg.tinggi;
+    cout << "Masukkan lebar: ";
+    cin >> sg.alas;
+
+    cout << "Luas Persegi Panjang: " << pp.luasPersegiPanjang(pp.panjang, pp.lebar) << endl;
+    cout << "Luas Segitiga: " << sg.luasSegitiga(sg.alas, sg.tinggi) << endl;
+}
