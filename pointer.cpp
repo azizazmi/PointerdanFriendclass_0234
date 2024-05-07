@@ -29,7 +29,7 @@ int main() {
     cin >> pp.lebar;
     cout << "Masukkan tinggi: ";
     cin >> sg.tinggi;
-    cout << "Masukkan lebar: ";
+    cout << "Masukkan alas: ";
     cin >> sg.alas;
 
     cout << "Luas Persegi Panjang: " << pp.luasPersegiPanjang(pp.panjang, pp.lebar) << endl;
